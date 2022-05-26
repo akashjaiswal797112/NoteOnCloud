@@ -11,7 +11,7 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarofeditnote"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="50sp"
         android:background="@color/textbackground"
         app:theme="@style/ToolbarTheme">
 
@@ -20,11 +20,11 @@
             android:id="@+id/edittitleofnote"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginRight="60dp"
+            android:layout_marginRight="60sp"
             android:background="@color/textbackground"
             android:maxLength="20"
             android:maxLines="1"
-            android:paddingTop="12dp"
+            android:paddingTop="12sp"
             android:textColor="@color/offwhite"
             android:textSize="25sp">
 
@@ -39,24 +39,24 @@
         android:layout_below="@+id/toolbarofeditnote"
         android:background="@color/darknavybackground"
         android:gravity="top|left"
-        android:padding="15dp"
+        android:padding="15sp"
         android:scrollbars="vertical"
         android:textColor="@color/offwhite"
         android:textSize="15sp"></EditText>
 
     <ImageView
         android:id="@+id/saveeditnote"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_gravity="bottom|end"
-        android:layout_marginTop="15dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginBottom="30sp"
         android:background="@color/textbackground"
         android:src="@drawable/ic_tick_svgrepo_com"
-        app:maxImageSize="60dp"
+        app:maxImageSize="60sp"
 
         ></ImageView>
 

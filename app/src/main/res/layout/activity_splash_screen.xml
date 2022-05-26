@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/noclogo"
-        android:layout_width="104dp"
-        android:layout_height="92dp"
+        android:layout_width="104sp"
+        android:layout_height="92sp"
         android:foregroundGravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,12 +24,12 @@
 
     <ImageView
         android:id="@+id/cwjlogo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:srcCompat="@drawable/cwjlogo" />
 
@@ -38,7 +38,7 @@
         android:id="@+id/codewithjais"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="24sp"
         android:text="𝕮𝖔𝖉𝖊𝖂𝖎𝖙𝖍𝕵𝖆𝖎𝖘"
         android:textColor="@color/white"
         android:textSize="20sp"

@@ -9,14 +9,14 @@
 
     <ImageView
         android:id="@+id/emailicon1"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
         android:src="@drawable/ic_baseline_email_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.156"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginBottom="43dp"
+        android:layout_marginBottom="43sp"
       app:layout_constraintBottom_toTopOf="@id/signuppassword"
 
 
@@ -24,13 +24,13 @@
 
     <ImageView
         android:id="@+id/passwordicon"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
         android:src="@drawable/ic_baseline_lock_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.156"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="30sp"
         app:layout_constraintTop_toBottomOf="@+id/signupemail"
 
 
@@ -38,13 +38,13 @@
 
     <ImageView
         android:id="@+id/confirmpasswordicon"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
         android:src="@drawable/ic_baseline_lock_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.156"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="30sp"
         app:layout_constraintTop_toBottomOf="@+id/signuppassword"
 
 
@@ -53,18 +53,18 @@
 
     <EditText
         android:id="@+id/signupemail"
-        android:layout_width="295dp"
+        android:layout_width="295sp"
         android:layout_height="wrap_content"
         android:background="@drawable/edittextdesign"
         android:hint="Email"
         android:importantForAutofill="no"
         android:maxLines="1"
         android:fontFamily="@font/nunito_sans"
-        android:paddingLeft="40dp"
-        android:paddingBottom="15dp"
+        android:paddingLeft="40sp"
+        android:paddingBottom="15sp"
         android:textColor="@color/yellow"
         android:textColorHint="@color/yellow"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:flow_horizontalBias=".5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/signupbutton"
@@ -78,17 +78,17 @@
 
     <EditText
         android:id="@+id/signuppassword"
-        android:layout_width="295dp"
+        android:layout_width="295sp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="30sp"
         android:background="@drawable/edittextdesign"
         android:hint="Password"
-        android:paddingLeft="40dp"
+        android:paddingLeft="40sp"
         android:inputType="textPassword"
         android:fontFamily="@font/nunito_sans"
         android:maxLines="1"
-        android:textSize="14dp"
-        android:paddingBottom="15dp"
+        android:textSize="14sp"
+        android:paddingBottom="15sp"
         android:textColor="@color/yellow"
         android:textColorHint="@color/yellow"
         app:layout_constraintEnd_toEndOf="parent"
@@ -98,18 +98,18 @@
 
     <EditText
         android:id="@+id/signupconfirmpassword"
-        android:layout_width="295dp"
+        android:layout_width="295sp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="30sp"
         android:background="@drawable/edittextdesign"
         android:hint="Confirm Password"
-        android:paddingLeft="40dp"
+        android:paddingLeft="40sp"
         android:maxLines="1"
         android:inputType="textPassword"
         android:fontFamily="@font/nunito_sans"
-        android:paddingBottom="15dp"
+        android:paddingBottom="15sp"
         android:textColor="@color/yellow"
-        android:textSize="14dp"
+        android:textSize="14sp"
         android:textColorHint="@color/yellow"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -118,8 +118,8 @@
 
     <TextView
         android:id="@+id/signupbutton"
-        android:layout_width="295dp"
-        android:layout_height="48dp"
+        android:layout_width="295sp"
+        android:layout_height="48sp"
         android:background="@drawable/button1"
         android:text="SignUp"
         android:textColor="@color/white"
@@ -131,9 +131,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintWidth_percent=".8"
         android:clickable="true"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-        android:layout_marginBottom="80dp"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:layout_marginBottom="80sp"
         android:textAlignment="center"
         android:textAllCaps="false"
 

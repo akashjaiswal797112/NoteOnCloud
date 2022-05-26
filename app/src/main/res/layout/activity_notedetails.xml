@@ -21,11 +21,11 @@
             android:id="@+id/titleofnotedetail"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginRight="60dp"
+            android:layout_marginRight="60sp"
             android:background="@color/textbackground"
             android:maxLength="20"
             android:maxLines="1"
-            android:paddingTop="12dp"
+            android:paddingTop="12sp"
             android:textColor="@color/offwhite"
             android:textSize="25sp">
 
@@ -43,24 +43,24 @@
         android:background="#B8B8D1"
         android:backgroundTint="@color/darknavybackground"
         android:gravity="top|left"
-        android:padding="18dp"
+        android:padding="18sp"
         android:scrollbars = "vertical"
         android:textColor="@color/offwhite"
         android:textSize="15sp"></TextView>
 
     <ImageView
         android:id="@+id/gotoeditnote"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
+        android:layout_width="25sp"
+        android:layout_height="25sp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_gravity="bottom|end"
-        android:layout_marginTop="15dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="30sp"
         android:background="@color/textbackground"
         android:src="@drawable/edit_pencil"
-        app:maxImageSize="60dp"
+        app:maxImageSize="60sp"
 
         ></ImageView>
 

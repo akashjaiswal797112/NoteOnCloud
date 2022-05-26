@@ -66,7 +66,7 @@ public class createnote extends AppCompatActivity {
 
 
 
-        //to remove status bar
+        //do this to remove status bar
         //getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         //getSupportActionBar().setTitle(Html.fromHtml("<font color=\"#FCA311\">" + getString(R.string.All_Notes) + "</font>"));

@@ -18,10 +18,10 @@ android:background="@color/darknavybackground"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_gravity="bottom|end"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="30sp"
         android:src="@drawable/ic_add_svgrepo_com"
-        app:maxImageSize="25dp"
+        app:maxImageSize="25sp"
 
         ></com.google.android.material.floatingactionbutton.FloatingActionButton>
 
